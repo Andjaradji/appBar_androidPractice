@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/actionSettingsID"
+        android:title="@string/setting"
+        android:orderInCategory="100"
+        app:showAsAction="collapseActionView"
+        android:visible="true"
+        android:enabled="true"/>
+
+    <item android:id="@+id/actionSearchID"
+        android:title="@string/search"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+</menu>
